@@ -39,12 +39,5 @@
     }
 }
 @media (max-width: 600px){
-       .skills-section{
-        padding-left: 2.5rem;
-    }
-}
-@media (max-width: 1000px){
-       /* .skills-section{
-    padding-left: 1rem;
-    } */
+
 }

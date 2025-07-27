@@ -11,7 +11,7 @@ function scroll() {
     image.style = "opacity:1";
     image.style = "transform: translateX(30px)";
     services.style = "opacity:1";
-    services.style = "transform: translateX(40px)";
+    services.style = "transform: translateX(10px)";
   }
   if (window.scrollY < 230) {
     image.style = "opacity:0";
