@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Richard Nneji</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Calistoga&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styleall.css" />
+  </head>
+  <style>
+    /* .intro-section {
+      background-image: url(/images/robot.jpg);
+    } */
+    .services {
+      justify-items: center;
+      color: black;
+      font-size: 2rem;
+      padding: 2rem;
+      margin-top: 2rem;
+      transform: translateX(200px);
+      transition: ease 2.5s;
+      margin-right: 0.61rem;
+    }
+    .services p {
+      padding-top: 2rem;
+    }
+    .servicesul {
+      padding-top: 2rem;
+      font-size: 1.5rem;
+    }
+    .services-div {
+      display: flex;
+      justify-content: center;
+      gap: 4rem;
+      background-image: linear-gradient(
+        rgba(255, 68, 0, 0.815),
+        rgb(228, 222, 222),
+        white,
+        rgba(255, 68, 0, 0.712)
+      );
+      align-items: center;
+      margin-top: 4rem;
+      padding-bottom: 5rem;
+      border-radius: 30px;
+    }
+    .services-image {
+      padding-top: 5rem;
+      height: 450px;
+      justify-items: center;
+      border-radius: 15px;
+    }
+
+    .skills h2 {
+      display: inline-block;
+      color: white;
+      margin-left: 4.5rem;
+      cursor: pointer;
+      font-size: 2rem;
+    }
+    .skills h2:hover {
+      color: orangered;
+      transform: rotateX(360deg);
+      transition: ease 1s;
+      text-decoration: underline;
+    }
+    .skills-section {
+      /* margin-top: 4rem; */
+      padding: 2rem;
+      display: flex;
+      align-content: center;
+      justify-content: center;
+      flex-direction: column;
+      /* text-align: center; */
+      padding-left: 30rem;
+      gap: 1rem;
+      background-image: url(images/image.jpg);
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center;
+      height: 900px;
+    }
+    .skill-list {
+      margin-right: 10rem;
+      padding: 2rem;
+    }
+    .js-service-image {
+      transform: translateX(-200px);
+      transition: ease 2.5s;
+    }
+    .skill-list-container {
+      width: 400px;
+      aspect-ratio: 1/1;
+      border: 2px solid black;
+      border-radius: 15px;
+      /* background-image: url(images/robot\ sitting.jpg); */
+      background-size: cover;
+      background-repeat: no-repeat;
+      color: orangered;
+      background-color: rgba(255, 255, 255, 0.103);
+      background-blend-mode: overlay;
+    }
+    .skill-list ul {
+      display: none;
+      line-height: 45px;
+    }
+    .works-list {
+      text-align: center;
+    }
+  </style>
+  <body>
+    <section class="hero">
+      <header class="header">
+        <a href="mailto:nnejirichard@yahoo.com" class="headeremail"
+          >nnejirichard@yahoo.com</a
+        >
+        <div class="headera">
+          <a href="index.html">About</a>
+          <a href="#contact">Contact</a>
+        </div>
+      </header>
+    </section>
+    <main>
+      <section class="intro-section">
+        <h1 class="introductiontext">
+          Hi, im Richard. <br />
+          A Full Stack Developer.
+        </h1>
+        <p class="introductionparagraph">
+          I'm currently based in Enugu, Nigeria. I'm passionate about building
+          dynamic,accessible, and user-friendly websites.
+        </p>
+      </section>
+      <div class="services-div">
+        <div class="js-service-image">
+          <img src="images/hands typing.jpg" alt="" class="services-image" />
+        </div>
+        <div class="services">
+          <h2>SERVICES</h2>
+          <p>I’m available freelance for a range of services</p>
+          <ul class="servicesul">
+            <li>BUILDING WEBSITES</li>
+            <li>LEADING FRONTEND TEAMS</li>
+            <li>SPEAKING ABOUT WEB DEVELOPMENT</li>
+            <li>GRAPHICS DESIGN</li>
+          </ul>
+        </div>
+      </div>
+      <section class="skills-section">
+        <div class="skills">
+          <h2 class="skills-h2">Skills</h2>
+          <h2 class="works-h2">Works</h2>
+        </div>
+        <div class="skills-works-container">
+          <div class="skill-list-container">
+            <div class="skill-list">
+              <ul class="skill-list-ul">
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JAVASCRIPT</li>
+                <li>REACT JS</li>
+                <li>NODE JS</li>
+                <li>SQL</li>
+                <li>PYTHON</li>
+              </ul>
+            </div>
+            <div class="works-list"></div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="footer">
+      <p>Copyright &copy; Richard Nneji 2025</p>
+      <div class="footercontact" id="contact">
+        CONTACT
+        <ul>
+          <li>
+            <a
+              href="https://www.facebook.com/share/159twUee3u/?mibextid=wwXIfr"
+              target="_blank"
+              >Facebook</a
+            >
+          </li>
+          <li>
+            <a
+              href="https://www.instagram.com/italiannino_92?igsh=d2Y3azYzNzMyanJy&utm_source=qr"
+              target="_blank"
+              >Instagram</a
+            >
+          </li>
+          <li><a href="">LinkedIn</a></li>
+          <li>
+            <a href="mailto:nnejirichard@yahoo.com" target="_blank">Email</a>
+          </li>
+        </ul>
+      </div>
+    </footer>
+    <script src="scripts/index.js"></script>
+  </body>
+</html>
